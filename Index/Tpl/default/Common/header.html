@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<link rel="shortcut icon" href="__PUBLIC__/Images/favicon.ico"/>
+    <php>
+		$style = M('userinfo')->where(array('uid' => session('uid')))->getField('style');
+    </php>
